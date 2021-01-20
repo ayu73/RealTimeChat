@@ -5,7 +5,7 @@
 	$msg = $_POST['msg'];
 
 	//DB接続に必要な情報
-	$db = mysqli_connect('localhost', 'root', '', 'chatdb');
+	$db = mysqli_connect('ホスト名', 'ユーザ名', 'パスワード', 'DB名');
 	mysqli_set_charset($db, 'utf8');
 	
 	//DB接続, SQL文実行
