@@ -16,4 +16,8 @@
 	} catch (Exception $e) {
 		echo $e->getMessage() . PHP_EOL;
 	}
+
+	//index.htmlに戻る
+	header('Location: index.htmlのURL');
+	exit;
 ?>
